@@ -6,7 +6,7 @@ function loanSimulator() {
         console.error("The element entered is not a number. Please try again.");
         return;
     }
-
+// simulator comparison breakdown.
     if (loanTerm >= 1 && loanTerm <= 52) {
         alert("In a moment you can review the breakdown on your personal" + loanTerm + "month payments. Your monthly payments total. $" + loanAmount);
         calculateMonthlyQuote(loanTerm, loanAmount, interestRate);
