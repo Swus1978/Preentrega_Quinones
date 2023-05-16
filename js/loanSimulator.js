@@ -9,7 +9,7 @@ function loanSimulator() {
 
 
     // loan simulator comparison breakdown.
-    if (loanTerm >= 1 && loanTerm <= 52) {
+    if (loanTerm >= 1 && loanTerm <= 72) {
         alert("In a moment you can review the breakdown on your personal" + loanTerm + "month payments. Your monthly payments total. $" + loanAmount);
         calculateMonthlyQuote(loanTerm, loanAmount, interestRate);
     } else {
