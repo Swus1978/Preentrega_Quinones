@@ -1,4 +1,4 @@
-// Loan simulator
+// Loan simulator calculator
 const interestRate = 17.00;
 
 function calculateMonthlyQuote(loanTerm, loanAmount, interestRate) {
